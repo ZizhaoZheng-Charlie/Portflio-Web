@@ -5,6 +5,7 @@ import colorSharp2 from '../assets/img/color-sharp2.png';
 import projImg1 from '../assets/img/project-img1.png';
 import projImg2 from '../assets/img/project-img2.png';
 import projImg3 from '../assets/img/project-img3.png';
+import CaptureImg from '../assets/img/Capture.png';
 import TrackVisibility from 'react-on-screen';
 import "animate.css"
 
@@ -59,22 +60,19 @@ export default function Projects() {
                     <Tab.Container id="project-tabs" defaultActiveKey="first">
                         <Nav variant="pills" defaultActiveKey= '/home' className='nav-pills mb-5 justify-content-center align-item-center' id = 'pills-tab'>
                             <Nav.Item>
-                                <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                                <Nav.Link eventKey="first">Web Development</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                                <Nav.Link eventKey="second">Software Development</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                                <Nav.Link eventKey="third">Backend Development</Nav.Link>
                             </Nav.Item>
                         </Nav>
                         <Tab.Content>  
                             <Tab.Pane eventKey="first">
                                 <Row>
-                                {projects.map((project, index) => {
-                                    return (<ProjectsCard key={index} title = {project.title} description = {project.description} imgUrl = {project.imgUrl} />)
-                                })
-                                }
+                                <ProjectsCard title = "Portfolio web" description = "Design & Development" imgUrl = {CaptureImg} />
                                 </Row>
                             </Tab.Pane>
                             <Tab.Pane eventKey="second">sadas</Tab.Pane>

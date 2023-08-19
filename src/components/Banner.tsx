@@ -58,7 +58,7 @@ function Banner() {
                             <span className='wrap'>{text}</span>
                         </h1>
 
-                        <p>ADADaasdasdasd</p>
+                        <p>Motivated programmer with 1+ years of experience in software development specializing in Python, Java, and AWS. Proficient in creating, testing, debugging code for various applications including web development, database, and AWS. Experienced in agile software development methodologies and collaborating with cross-functional team. Passionate about leveraging technology to solve complex problem and delivering innovative solution that meet or exceed customers expectations.</p>
                         <a href = '#connect'><button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size = {25}/></button></a>
                         </div>}
                     </TrackVisibility>
